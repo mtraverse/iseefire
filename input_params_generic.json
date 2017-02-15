@@ -1,0 +1,9 @@
+{
+    "bucket": "cloudtrail logs S3 bucket",
+    "archive": "cloudtrail logs archive path",
+    "tmpdir": "local tmp dir for processing",
+    "reqregion": "region of in which using resources (S3, SNS...)",
+    "reqsig": "Security signature",
+    "authorized_regions": [List of autorized regions],
+    "snstopic": "SNS topic to send notifications to"
+}
